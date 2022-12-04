@@ -75,7 +75,7 @@ fn task_two() {
     let mut elf_groups: Vec<(String, String, String)> = Vec::with_capacity(3);
     let mut elf_group: (String, String, String) = (String::new(), String::new(), String::new());
 
-    // Read all the lines of the filString::new(), String::new()e
+    // Read all the lines of the file
     if let Ok(lines) = read_lines(input_path) {
         // Go throug each of the lines
         for (i, line) in lines.enumerate() {

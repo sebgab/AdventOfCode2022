@@ -133,6 +133,6 @@ fn task_two() {
 }
 
 fn main() {
-    task_one();
+    task_one()a;
     task_two();
 }
